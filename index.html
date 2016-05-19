@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>U need $$$$$$$$$</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>U Need $$</h1>
+
+	<!-- This is going to get the basic informatiom about the applicant -->
+	<fieldset>
+		<legend>Basic Information</legend>
+		<section>
+			<label for="first_name">First Name</label>
+			<input type="text" name="first_name" id="first_name" autofocus>
+		</section>
+
+		<section>
+			<label for="middle_i">Middle Initial</label>
+			<input type="text" name="middle_i" id="middle_i">	
+		</section>	
+
+		<section>
+			<label for="last_name">Last Name</label>
+			<input type="text" name="last_name" id="last_name">
+		</section>
+
+		<section>
+			<label for="address_1">Number and Street</label>
+			<input type="text" name="address_1" id="address_1">
+			<label for="city_state_zip">City, State, Zip</label>
+			<input type="text" name="city_state_zip" id="city_state_zip">
+		</section>
+	</fieldset>
+
+	<!-- The employment information for the applicant -->
+	<fieldset>
+		<legend>Employment Information</legend>
+		<section>
+			<label for="job">Occupation</label>		
+			<input type="text" name="job" id="job">
+		</section>
+
+		<section>
+			<label for="employer">Employer</label>
+			<input type="text" name="employer" id="employer">
+		</section>
+
+		<section>
+			<label for="emp_addres_1">Number and Street</label>		
+			<input type="text" name="emp_address_1" id="emp_address_1">
+			<label for="emp_csz">City, State, Zip</label>
+			<input type="text" name="emp_csz" id="emp_csz">
+		</section>	
+	</fieldset>
+
+	<fieldset>
+		<legend>Loan Information</legend>
+		<section>
+			<label for="loan_type">Loan Type</label>	
+			<select name="loan_type" id="loan_type">
+				<option value="commercial">Commercial</option>
+				<option value="real_estate">Real Estate</option>	
+				<option value="personal">Personal</option>
+				<option value="mortgage">Mortgage</option>
+			</select>
+
+			<label for="amount">     Loan Amount</label>	
+			<input type="number" name="amount" id="amount">
+		</section>
+
+		<section>
+		<fieldset>
+			<legend>Loan Duration</legend>
+			<label for="5 Years">5 years</label>
+			<input type="radio" name="five" value="5">
+			<label for="5 Years">15 years</label>
+			<input type="radio" name="fifteen" value="15">
+			<label for="5 Years">30 years</label>
+			<input type="radio" name="thirty" value="30">
+		</fieldset>
+			
+		</section>
+	</fieldset>
+
+	<fieldset>
+		<legend>Special Conditions</legend>
+		<label for="checkbox_one">Have a down payment</label>
+		<input type="checkbox" name="checkbox_one" id="checkbox_one">
+
+		<label for="checkbox_two">Out of State Resident</label>
+		<input type="checkbox" name="checkbox_two" id="checkbox_two">
+
+		<label for="checkbox_three">Married</label>
+		<input type="checkbox" name="checkbox_three" id="checkbox_three">
+
+		<label for="checkbox_four">Have a co-signer</label>
+		<input type="checkbox" name="checkbox_four" id="checkbox_four">
+	</fieldset>
+
+	<fieldset>
+		<legend>Additional Comments or last attempts to beg for money?</legend>
+		<textarea name="beg"></textarea>
+	</fieldset>
+
+	<fieldset>
+		<legend>How can we find you?</legend>
+		<section>
+			<label for="mail2">Email</label>
+			<input type="email" name="mail2" id="mail2">
+		</section>
+
+		<section>
+			<label for="teleo">Phone Number</label>		
+			<input type="tel" name="teleo" id="teleo">
+		</section>
+
+		<section>
+			<label for="linked">LinkedIn</label>
+			<input type="url" name="linked" id="linked">
+		</section>
+
+	</fieldset>
+
+	<button name="button">Submit</button>
+
+
+</body>
+</html>
